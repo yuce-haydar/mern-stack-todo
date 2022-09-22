@@ -45,7 +45,7 @@ function Register() {
 
   useEffect(() => {
     if (isHata) {
-      console.error(mesaj+"haydar");
+      console.error(mesaj+"");
     }
     if (isBasari || kullanici) {
       navigate("/");
